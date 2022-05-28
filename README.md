@@ -1,8 +1,6 @@
-# Gap-Draught
-
 # About
 
-This is a fictitious library catalogue application programing interface written in PHP 8 and Symfony 5.
+This is a library catalogue Application Programming Interface written in PHP 8 and Symfony 5.
 
 ## Technology used
 
@@ -16,7 +14,7 @@ This is a fictitious library catalogue application programing interface written 
 
 After cloning the repo, run:
 - **composer install**
-- Enter your database credentials in .env
+- **Enter your database credentials in .env**
 - **php bin/console doctrine:database:create**
 - **php bin/console doctrine:schema:update --force**
 - **php bin/console doctrine:fixtures:load**
