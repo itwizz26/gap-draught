@@ -16,7 +16,7 @@ This is a fictitious library catalogue application programing interface written 
 
 After cloning the repo, run:
 - **composer install**
-- Enter your database credentials in .env-local and rename file to .env
+- Enter your database credentials in .env
 - **php bin/console doctrine:database:create**
 - **php bin/console doctrine:schema:update --force**
 - **php bin/console doctrine:fixtures:load**
